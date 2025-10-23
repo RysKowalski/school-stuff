@@ -1,0 +1,85 @@
+body {
+  background-color: lightgray;
+}
+
+
+.url_div {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.single_url {
+  transition: 200ms;
+  background-color: green;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: -3px 3px 2px 2px gray;
+}
+
+.url {
+  color: lightgray;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  transition: 200ms;
+  font-size: 30px;
+  line-height: initial 5px;
+}
+
+.single_url:hover {
+  transition: 300ms;
+  background-color: darkgreen;
+  transform: scale(1.07);
+}
+
+.title_or_smth {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.animal_image {
+  max-width: 80%;
+  max-height: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.back_button {
+  transition: 200ms;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: azure;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-left: 5%;
+}
+
+.back_button:hover {
+  transition-duration: 300ms;
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+.informations {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.informations_text {
+  line-height: 1.6;
+  text-indent: 2em;
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
+  word-wrap: normal;
+  font-size: 25px;
+}
