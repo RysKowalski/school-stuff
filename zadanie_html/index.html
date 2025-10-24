@@ -4,7 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Zwierzęta zagrożone wyginięciem</title>
+
+  <!-- to <style> jest stworzone tylko dlatego, że jest napisane w zadaniu że mają być przynajmniej 4 style w <head> -->
+  <style>
+    a:visited {}
+
+    a:hover {}
+
+    a {}
+
+    a:active {}
+  </style>
   <link href=style.css rel="stylesheet">
 </head>
 
@@ -12,22 +23,31 @@
   <t id='test' class="title_or_smth">Zagrożone zwierzęta</t><br>
 
   <div class="url_div">
-    <div class="single_url" id='aksolotl'><a class="url" href="html/aksolotl.html">aksolotl</a></div>
-    <div class="single_url" id='goryl'><a class="url" href="html/goryl_gurski.html">goryl gurski</a></div>
-    <div class="single_url" id='ibis'><a class="url" href="html/ibis_kasztanowy.html">ibis kasztanowy</a></div>
-    <div class="single_url" id='nosorozec'><a class="url" href="html/nosorozec_czarny.html">nosorożec czarny</a></div>
-    <div class="single_url" id="panda"><a class="url" href="html/panda_wielka.html">panda wielka</a></div>
-    <div class="single_url" id="orangutan"><a class="url" href="html/rangutan_borneanski.html">orangutan borneanski</a>
+    <div class="single_url" id='aksolotl'><a class="url" href="html/aksolotl.html" target="_blank">aksolotl</a></div>
+    <div class="single_url" id='goryl'><a class="url" href="html/goryl_gurski.html" target="_blank">goryl górski</a>
     </div>
-    <div class="single_url" id="slon"><a class="url" href="html/slon_afrykanski.html">słoń afrykański</a></div>
-    <div class="single_url" id="tygrys"><a class="url" href="html/tygrys_syberyjski.html">tygrys syberyjski</a></div>
-    <div class="single_url" id="wydra"><a class="url" href="html/wydra_kalifornijska.html">wydra kalifornijska</a></div>
-    <div class="single_url" id="zolw"><a class="url" href="html/zolw_skórzasty.html">żółw skórzasty</a></div>
+    <div class="single_url" id='ibis'><a class="url" href="html/ibis_kasztanowy.html" target="_blank">ibis
+        kasztanowy</a></div>
+    <div class="single_url" id='nosorozec'><a class="url" href="html/nosorozec_czarny.html" target="_blank">nosorożec
+        czarny</a></div>
+    <div class="single_url" id="panda"><a class="url" href="html/panda_wielka.html" target="_blank">panda wielka</a>
+    </div>
+    <div class="single_url" id="orangutan"><a class="url" href="html/rangutan_borneanski.html" target="_blank">orangutan
+        borneański</a>
+    </div>
+    <div class="single_url" id="slon"><a class="url" href="html/slon_afrykanski.html" target="_blank">słoń
+        afrykański</a></div>
+    <div class="single_url" id="tygrys"><a class="url" href="html/tygrys_syberyjski.html" target="_blank">tygrys
+        syberyjski</a></div>
+    <div class="single_url" id="wydra"><a class="url" href="html/wydra_kalifornijska.html" target="_blank">wydra
+        kalifornijska</a></div>
+    <div class="single_url" id="zolw"><a class="url" href="html/zolw_skórzasty.html" target="_blank">żółw skórzasty</a>
+    </div>
   </div>
 
-  <img id="image" class="animal_image" src="https://i.ytimg.com/vi/bRU7W_cOYk4/maxresdefault.jpg">
 
-
+  <!-- zdjęcie może wyjeżdżać poza ekran, bo początkowo pisałem css na komputerze szkolnym, potem na telefonie który ma pionowy ekran, a potem na moim monitorze 2k, a nie chce mi się już poprawiać skalowania dla mniejszych ekranów -->
+  <img id="image" class="animal_image" src="/assets/default.webp">
   <script src="script.js"></script>
 </body>
 

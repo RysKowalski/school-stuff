@@ -1,8 +1,3 @@
-document.getElementById('test').addEventListener('click', function (ev) {
-  document.getElementById('image').src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.9t3z548I_S9Nx3BFrGI55AHaHa%3Fcb%3D12%26pid%3DApi&f=1&ipt=dc1cc71db090e28e3f68942cea088dc7316b43cad363c7205d5d6a824ae14110&ipo=images'
-})
-
-
 const images = {
   "aksolotl": "/assets/aksolotl.webp",
   "goryl": "/assets/goryl.webp",

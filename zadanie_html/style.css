@@ -71,8 +71,9 @@ body {
 }
 
 .informations {
-  margin-left: 5%;
-  margin-right: 5%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .informations_text {
