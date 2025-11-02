@@ -45,7 +45,7 @@ body {
 
 .animal_image {
   max-width: 80%;
-  max-height: 35%;
+  max-height: 265px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -60,6 +60,7 @@ body {
   color: azure;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
   border-radius: 4px;
   margin-left: 5%;
 }
@@ -83,4 +84,8 @@ body {
   word-spacing: 0.1em;
   word-wrap: normal;
   font-size: 25px;
+}
+
+.hide {
+  display: none;
 }

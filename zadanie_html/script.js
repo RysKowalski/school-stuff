@@ -13,6 +13,7 @@ const images = {
 
 function change_image(element) {
   document.getElementById('image').src = images[element];
+  document.getElementById('back_button').classList.remove('hide')
 }
 
 // Attach listeners dynamically
