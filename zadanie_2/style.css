@@ -4,8 +4,11 @@ body {
 
 
 .url_div {
-  margin-left: 7%;
-  margin-right: 7%;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  height: 150px;
 }
 
 .single_url {
@@ -36,21 +39,24 @@ body {
   transform: scale(1.07);
 }
 
+.image_link {
+  transition: 100ms;
+  display: inline-block;
+  margin: auto;
+}
+
+.image_link:hover {
+  transition: 300ms;
+  transform: scale(1.2);
+}
+
 .title_or_smth {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   display: block;
   margin: 0 auto;
 }
 
-.animal_image {
-  max-width: 80%;
-  max-height: 35%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: transparent;
-}
 
 .back_button {
   transition: 200ms;
@@ -70,17 +76,49 @@ body {
   transform: scale(1.1);
 }
 
-.informations {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
+.informations_left {
+  height: 500px;
+  font-size: 40px;
 }
 
-.informations_text {
-  line-height: 1.6;
-  text-indent: 2em;
-  letter-spacing: 0.02em;
-  word-spacing: 0.1em;
-  word-wrap: normal;
-  font-size: 25px;
+.informations_left img {
+  float: left;
+  margin-right: 20px;
+
+  height: 500px;
+  width: 500px
+}
+
+.informations_right {
+  float: right;
+  margin-top: 30px;
+  height: 500px;
+  font-size: 40px;
+}
+
+
+.informations_right img {
+  float: right;
+  margin-left: 20px;
+
+  height: 470px;
+  width: 470px;
+}
+
+.gallery {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 930px;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  gap: 10px;
+}
+
+.gallery img {
+  transition: 100ms;
+}
+
+.gallery img:hover {
+  transition: 300ms;
+  transform: scale(1.03);
 }
