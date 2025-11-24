@@ -2,18 +2,12 @@ body {
   background-color: lightgray;
 }
 
-.url_div {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 25px;
-  height: 150px;
-}
-
 .single_url {
+  color: #002;
   transition: 200ms;
+  text-decoration: none;
   background-color: green;
-  width: 350px;
+  width: 1000px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -21,14 +15,19 @@ body {
   box-shadow: -3px 3px 2px 2px gray;
 }
 
+.center {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 .url {
-  color: lightgray;
-  text-decoration: none;
   text-align: center;
   display: block;
   margin: 0 auto;
   transition: 200ms;
-  font-size: 30px;
+  font-size: 2rem;
   line-height: initial 5px;
 }
 
@@ -39,7 +38,7 @@ body {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   display: block;
   margin: 0 auto;
