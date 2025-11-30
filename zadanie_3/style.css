@@ -6,13 +6,27 @@ body {
   color: #002;
   transition: 200ms;
   text-decoration: none;
-  background-color: green;
   width: 1000px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.single_url a {
+  display: block;
+  text-decoration: none;
+  color: #002;
   border-radius: 10px;
+  background-color: green;
   box-shadow: -3px 3px 2px 2px gray;
+  transition: 100ms;
+}
+
+.single_url a:hover {
+  color: #001;
+  transition: 300ms;
+  background-color: #007000;
+  transform: scale(1.02);
 }
 
 .center {
@@ -29,13 +43,9 @@ body {
   transition: 200ms;
   font-size: 2rem;
   line-height: initial 5px;
+  width: 75%;
 }
 
-.single_url:hover {
-  transition: 300ms;
-  background-color: darkgreen;
-  transform: scale(1.07);
-}
 
 .title {
   font-size: 4rem;
@@ -49,67 +59,48 @@ body {
   margin-top: 1rem;
 }
 
-.back_button {
-  transition: 200ms;
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: dodgerblue;
-  color: azure;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 4px;
-  margin-left: 5%;
-}
-
-.back_button:hover {
-  transition-duration: 300ms;
-  background-color: blue;
-  transform: scale(1.1);
-}
-
-.informations_left {
-  height: 500px;
-  font-size: 40px;
-}
-
-.informations_left img {
-  float: left;
-  margin-right: 20px;
-
-  height: 500px;
-  width: 500px
-}
-
-.informations_right {
-  float: right;
-  margin-top: 30px;
-  height: 500px;
-  font-size: 40px;
-}
-
-
-.informations_right img {
-  float: right;
-  margin-left: 20px;
-
-  height: 470px;
-  width: 470px;
-}
-
-.gallery {
+.informations {
+  text-align: left;
+  font-family: 'Courier New', monospace;
+  display: block;
   margin: 0 auto;
-  margin-top: 20px;
-  max-width: 930px;
-  grid-template-columns: repeat(3, 1fr);
-  display: grid;
-  gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.gallery img {
-  transition: 100ms;
+.informations t {
+  line-height: 1.6;
+  text-indent: 2em;
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
+  word-wrap: normal;
+  font-size: 25px;
+  color: darkgreen;
 }
 
-.gallery img:hover {
-  transition: 300ms;
-  transform: scale(1.03);
+.informations h3 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.informations h4 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.informations ol {
+  color: red;
+}
+
+.informations ul {
+  color: red;
 }
