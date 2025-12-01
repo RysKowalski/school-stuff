@@ -2,51 +2,6 @@ body {
   background-color: lightgray;
 }
 
-.single_url {
-  color: #002;
-  transition: 200ms;
-  text-decoration: none;
-  width: 1000px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.single_url a {
-  display: block;
-  text-decoration: none;
-  color: #002;
-  border-radius: 10px;
-  background-color: green;
-  box-shadow: -3px 3px 2px 2px gray;
-  transition: 100ms;
-}
-
-.single_url a:hover {
-  color: #001;
-  transition: 300ms;
-  background-color: #007000;
-  transform: scale(1.02);
-}
-
-.center {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-}
-
-
-.url {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  transition: 200ms;
-  font-size: 2rem;
-  line-height: initial 5px;
-  width: 75%;
-}
-
-
 .title {
   font-size: 4rem;
   text-align: center;
@@ -59,48 +14,49 @@ body {
   margin-top: 1rem;
 }
 
-.informations {
-  text-align: left;
-  font-family: 'Courier New', monospace;
+.center {
   display: block;
-  margin: 0 auto;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.informations t {
-  line-height: 1.6;
-  text-indent: 2em;
-  letter-spacing: 0.02em;
-  word-spacing: 0.1em;
-  word-wrap: normal;
-  font-size: 25px;
-  color: darkgreen;
-}
-
-.informations h3 {
   text-align: center;
-  display: block;
   margin: 0 auto;
-  font-size: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
-.informations h4 {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  font-size: 1.7rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 
+table {
+  width: 60%;
+  border-collapse: collapse;
 }
 
-.informations ol {
-  color: red;
+TABLE,
+TR,
+TD {
+  border: 2px solid black;
+  transition: 100ms;
 }
 
-.informations ul {
-  color: red;
+TR:hover {
+  background-color: aliceblue;
+  font-weight: bold;
+  transition: 300ms;
+}
+
+TR:nth-child(even) {
+  background-color: cadetblue;
+}
+
+TR:nth-child(odd) {
+  background-color: aqua;
+}
+
+
+thead {
+  background-color: lightgoldenrodyellow;
+}
+
+
+tfoot {
+  background-color: lightgreen;
+}
+
+TD {
+  padding-left: 10px;
 }
