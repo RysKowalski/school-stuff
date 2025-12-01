@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabele w HTML</title>
+  <link href="style.css" rel="stylesheet">
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+    }
+
+    TABLE,
+    TR,
+    TD {
+      border: 2px solid black;
+      transition: 100ms;
+    }
+
+    TR:hover {
+      background-color: aliceblue;
+      font-weight: bold;
+      transition: 300ms;
+
+    }
+
+    thead {
+      background-color: lightgoldenrodyellow;
+    }
+
+    tfoot {
+      background-color: lightgreen;
+    }
+
+    TD {
+      padding-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">Tabele w HTML</h1>
+
+  <table>
+    <thead>
+      <td>L.P.</td>
+      <td>Imię</td>
+      <td>Nazwisko</td>
+      <td>Funkcja</td>
+      <td>Stopień</td>
+    </thead>
+    <tr>
+      <td>1</td>
+      <td>Jan</td>
+      <td>Nowak</td>
+      <td>Dróżynowy, zastępca hówcowego</td>
+      <td>Przewodnik harcerz orli</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bator</td>
+      <td>Gusta</td>
+      <td>Zastępowy</td>
+      <td>Wywiadowca</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Antoni</td>
+      <td>Nowak</td>
+      <td>Przyboczny</td>
+      <td>Ćwik?</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Bartosz</td>
+      <td>Szymański</td>
+      <td>Przyboczny</td>
+      <td>Ćwik</td>
+    </tr>
+    <tfoot>
+      <td>Sigma</td>
+      <td>Jerzy</td>
+      <td>Tomasik</td>
+      <td>Szeregowy</td>
+      <td>Młodzik</td>
+    </tfoot>
+  </table>
+
+</body>
+
+</html>
