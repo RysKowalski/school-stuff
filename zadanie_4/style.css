@@ -2,18 +2,6 @@ body {
   background-color: lightgray;
 }
 
-.title {
-  font-size: 4rem;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-
-.smaller_title {
-  font-size: 2.5rem;
-  margin-top: 1rem;
-}
-
 .center {
   display: block;
   text-align: center;
@@ -31,12 +19,7 @@ TR,
 TD {
   border: 2px solid black;
   transition: 100ms;
-}
-
-TR:hover {
-  background-color: aliceblue;
-  font-weight: bold;
-  transition: 300ms;
+  text-align: center;
 }
 
 TR:nth-child(even) {
@@ -48,15 +31,18 @@ TR:nth-child(odd) {
 }
 
 
-thead {
-  background-color: lightgoldenrodyellow;
-}
 
 
 tfoot {
   background-color: lightgreen;
 }
 
-TD {
-  padding-left: 10px;
+
+
+#plan {
+  margin-top: 3%;
+}
+
+thead {
+  font-weight: bold;
 }
