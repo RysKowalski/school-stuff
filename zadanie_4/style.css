@@ -10,7 +10,6 @@ body {
 
 
 table {
-  width: 60%;
   border-collapse: collapse;
 }
 
@@ -23,26 +22,50 @@ TD {
 }
 
 TR:nth-child(even) {
-  background-color: cadetblue;
+  background-color: #A0A0A0;
 }
 
 TR:nth-child(odd) {
-  background-color: aqua;
+  background-color: #C0C0C0;
 }
-
-
-
 
 tfoot {
   background-color: lightgreen;
 }
 
+#znajomi {
+  font-size: 1.3rem;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 
+#znajomi td {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
 #plan {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 3%;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+.time {
+  white-space: nowrap;
+}
+
+thead td {
+  background-color: #E4E4E4;
+}
+
+tfoot td {
+  background-color: #E4E4E4;
 }
 
 thead {
-  font-weight: bold;
+  font-weight: bolder;
 }
