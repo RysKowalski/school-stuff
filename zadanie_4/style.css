@@ -1,9 +1,9 @@
 body {
   background-color: lightgray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .center {
-  display: block;
   text-align: center;
   margin: 0 auto;
 }
@@ -11,6 +11,9 @@ body {
 
 table {
   border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  flex: 1;
 }
 
 TABLE,
@@ -19,14 +22,17 @@ TD {
   border: 2px solid black;
   transition: 100ms;
   text-align: center;
+  padding: 0.5%;
 }
 
 TR:nth-child(even) {
-  background-color: #A0A0A0;
+  background-color: #DDD6D0;
+  color: #000;
 }
 
 TR:nth-child(odd) {
-  background-color: #C0C0C0;
+  background-color: #C2CDCE;
+  color: #000;
 }
 
 tfoot {
@@ -35,9 +41,11 @@ tfoot {
 
 #znajomi {
   font-size: 1.3rem;
-  display: block;
+  display: flex;
   text-align: center;
   margin: 0 auto;
+  padding: 4%;
+  padding-top: 1%;
 }
 
 #znajomi td {
@@ -46,12 +54,10 @@ tfoot {
 }
 
 #plan {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
   font-weight: bold;
+  display: flex;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .time {
