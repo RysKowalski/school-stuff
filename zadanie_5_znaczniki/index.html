@@ -9,25 +9,53 @@
 </head>
 
 <body>
-  <!-- pomysł: główna omawia plusy kożystania z linuxa; galeria ma zrzuty ekranu różnych elementów dystrybucji i środowisk graficznych; dróga strona pokazuje 5 dystrybucji linuxa, ich plusy i minusy oraz instrukcje instalacji -->
-
-
+  <!-- HOME: baner, co robi google, czemu to robi
+     GALERIA: screeny z programów android open-source, które zostaną stracone
+     CO ROBIĆ: link do strony ze szczegułami i jej skrót
+-->
   <header>
-    header
+    <div id="android-banner" class="banner"></div>
+    <script src="https://keepandroidopen.org/banner.js?lang=pl&id=android-banner"></script>
+    <div id="my-banner" class="hide banner"><img
+        src="https://images.pexels.com/photos/20804701/pexels-photo-20804701.jpeg?cs=srgb&dl=pexels-agrosales-20804701.jpg&fm=jpg"
+        alt="no internet"></div>
+    <button id="toggle-banner">zamień baner na zwykły obraz</button>
   </header>
+
   <nav>
-    Menu
+    <a href="index.html">HOME</a> <br>
+    <a href="gallery.html">GALERIA</a> <br>
+    <a href="apps.html">dotknięte aplikacje</a>
   </nav>
   <section>
-    Tu będzie treść strony
-    Tu będzie treść strony
-    Tu będzie treść strony
-    Tu będzie treść strony
-    Tu będzie treść strony
+    <h1>Co się dzieje?</h1>
+    <t>
+      Google stara się odebrać możliwość instalowania programów z poza sklepu play, powodując że każdy kto chce stworzyć
+      aplikację android MUSI podać swoje dane osobowe i zapłacić googlowi.
+    </t>
+    <h1>Co to znaczy?</h1>
+    <t>
+      Tysiące aplikacji open-source z dnia na dzień przestaną istnieć, powodując że zostaną tylko zaakceptowane przez
+      google aplikacje z reklamami i śledzeniem użytkowników. Nie będzie się już dało dbać o swoją prywatność i kożystać
+      z funkcji które przynoszą alternatywne aplikacje. Więcej informacji na stronie <a href="gallery.html">GALERIA</a>
+    </t>
+    <h1>Co się stanie długoterminowo?</h1>
+    <t>
+      Gdy korporacyjne aplikacje nie będą miały żadnych alternatyw, będą mogły bez żadnych konsekwencji zamykać
+      podstawowe funkcje za pay-wallem, dodać wszędzie reklamy, pogorszyć wydajność, aktywnie śledzić wszystko co robi
+      użytkownik.
+    </t>
+    <h1>Co można zrobić?</h1>
+    <t>Po pierwsze, ta strona jest uproszczeniem sytuacji i ma tylko skrócone podstawowe informacje, wszystkie
+      informacje co robić, jaki ma to wpływ i co się stanie, znajduje się na stronie <a
+        href="https://keepandroidopen.org/pl/">https://keepandroidopen.org/pl/</a></t>
   </section>
   <footer>
-    stopka strony
+    <t class="author">Autor: Jerzy Tomasik</t>
+    <t class="creation-date">Data Stworzenia: 2 marca 2026r</t>
+    <a href="https://github.com/RysKowalski/school-stuff/tree/main/zadanie_5_znaczniki" class="github">github</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
