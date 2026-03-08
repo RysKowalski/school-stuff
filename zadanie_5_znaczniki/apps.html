@@ -9,78 +9,76 @@
 </head>
 
 <body>
-  <!-- HOME: baner, co robi google, czemu to robi
-     GALERIA: screeny z programów android open-source, które zostaną stracone
-     CO ROBIĆ: link do strony ze szczegułami i jej skrót
--->
   <header>
     <div id="android-banner" class="banner"></div>
     <script src="https://keepandroidopen.org/banner.js?lang=pl&id=android-banner"></script>
     <div id="my-banner" class="hide banner"><img
-        src="https://images.pexels.com/photos/20804701/pexels-photo-20804701.jpeg?cs=srgb&dl=pexels-agrosales-20804701.jpg&fm=jpg"
+        src="baner.png"
         alt="no internet"></div>
-    <button id="toggle-banner">zamień baner na zwykły obraz</button>
+    <button id="toggle-banner">zamień baner<br>na zwykły obraz</button>
   </header>
 
   <nav>
     <a href="index.html">HOME</a> <br>
     <a href="gallery.html">GALERIA</a> <br>
-    <a href="apps.html">CO ROBIĆ?</a>
+    <a href="apps.html">dotknięte aplikacje</a>
   </nav>
-  <section id="F-droid">
-    fdroid
-  </section>
-  <section id="termux">
-    termux
-  </section>
-  <section id="PipePipe">
-    PipePipe
-  </section>
-  <section id="Retro-Music">
-    Retro-Music
-  </section>
-  <section id="Aurora-Store">
-    Aurora-Store
-  </section>
-  <section id="Breezy-Weather">
-    Breezy-Weather
-  </section>
-  <section id="Auxio">
-    Auxio
-  </section>
-  <section id="Fennec">
-    Fennec
-  </section>
-  <section id="Fossify-Calendar">
-    Fossify-Calendar
-  </section>
-  <section id="Fossify-Gallery">
-    Fossify-Galleryo
-  </section>
-  <section id="Fossify-Messages">
-    Fossify-Messages
-  </section>
-  <section id="Fossify-Phone">
-    Fossify-Phone
-  </section>
-  <section id="Material-Files">
-    Material-Files
-  </section>
-  <section id="Obtanium">
-    Obtanium
-  </section>
-  <section id="Rethink">
-    Rethink
-  </section>
-  <section id="Namida">
-    Namida
-  </section>
+  <div class="page">
+    <section id="F-droid">
+      <h1>F-droid</h1>
+      <t>Jest to jeden z największych alternatyw do play store, zawiera wyłącznie sprawdzone aplikacje open-source, nie śledzi użytkowników, pozwala ustawić dokładnie jak i kiedy mają się aktualizować aplikacje, oraz pokazuje dokładnie jakie niechciane funkcje może mieć aplikacja, np. śledzenie, kożystanie z zewnętrznych programów closed-source</t>
+    </section>
+    <section id="termux">
+    <h1>Termux</h1>
+    <t>Termux to emulator linuxa na androidzie, który pozwala na interakcje z systemem w bardziej bezpośredni sposób, włączanie programów które działają na linuxie, czy kożystanie z api androida, na przykład za pomocą komend/skryptów/programów wysyła i czyta wiadomości sms, sprawdza jasność... w skrócie ma dostęp do wszystkich sensorów telefonu i do tego co mogą robić wszystkie inne aplikacje. Mi personalnie służy do programowania poza domem, neovim i inne programy TUI działają bez problemu.</t>
+    </section>
+    <section id="PipePipe">
+      <h1>PipePipe</h1>
+      <t>Jest to alternatywna aplikacja do youtube, w której nie trzeba się logować, nie jest się śledzonym, można oglądać wideo w jakiejkolwiek jakości się chce, nie ma reklam, można skonfigurować powiadomienia tak jak się chce, więc nie jest tak że z kanałów które się subskrybuje tylko czasami się pojawiają powiadomienia i tylko czasami widzimy nowe filmy na stronie głównej.</t>
+    </section>
+    <section id="Retro-Music">
+    <h1>Retro Music Player</h1>
+    <t>Jest to odtwarzacz lokalnej muzyki na android. Nie kożysta w żaden sposób z internetu, odtwarza lokalne pliki dźwiękowe, ma wsparcie do folderów, tytułów, autorów, albumów, playlist itp.</t>
+    </section>
+    <section id="Aurora-Store">
+      <h1>Aurora Store</h1>
+      <t>Można powiedzieć że jest to alternatywa dla sklepu play. Bez logowania do konta google może pobierać aplikacje które są w sklepie play, omijając całe śledzenie domyślnej aplikacji.</t>
+    </section>
+    <section id="Fennec">
+      <h1>Fennec</h1>
+      <t>Jest to fork firefoxa, co znaczy w uproszczeniu że jest kopią z dodatkowymi funkcjami. Nie wyrużnia się szczególnie od innych forków firefoxa, ale jest to coś nad czym ludzie pracują, ludzie aktywnie kożystają, i wiele z nich straci dostęp do ulubionej przeglądarki  po tych zmianach w prawach instalowania programów na własnym podręcznym komputerze</t>
+    </section>
+    <section id="Fossify-Calendar">
+    <h1>Fossify Calendar</h1>
+    <t>Jest to aplikacja kalendarza, ma swój wygląd widoczny na zrzucie ekranu, wspiera synchronizację z innymi  aplikacjami kalendarza, na przykład z kalendarzem google. Jak większość z aplikacji tutaj, nie kożysta niepotrzebnie z internetu i nie zbiera żadnych danych.</t>
+    </section>
+    <section id="Fossify-Gallery">
+      <h1>Fossify Gallery</h1>
+      <t>Jest to aplikacja galerii, która robi to co się oczekuje od aplikacji galerii, czyli wyświetla zdjęcia. Dodatkowo nie zapisuje ich automatycznie w internecie.</t>
+    </section>
+    <section id="Fossify-Messages">
+      <h1>Fossify Messages</h1>
+      <t>Prosta aplikacja do wysyłania wiadomości sms, robi to co powinna robić bez dodatkowego wysyłania wiadomości do internetu żeby potem dać te wiadomości jakiemuś dużemu modelu językowemu który potem zwymiotuje skrótem tego co ktoś napisał, bo nie mamy dla kogoś szacunku żeby nawet przeczytać to co napisali.</t>
+    </section>
+    <section id="Fossify-Phone">
+      <h1>Fossify Phone</h1>
+      <t>Prosta aplikacja do dzwonienia, robi to co powinna bez niepotrzebnego łączenia się z internetem i wysyłania kontaktów, ilości i czasu połaczeń do serwerów wielkich korporacji.</t>
+    </section>
+    <section id="Material-Files">
+      <h1>Material Files</h1>
+        <t>Szybka i sprawna do przeglądania i zarządania plikami na telefonie, do wyglądu kożysta z Material Design, co znaczy że ładnie i nowocześnie łączy się z wyglądem całego telefonu,</t>
+    </section>
+    <section id="Obtanium">
+      <h1>Obtanium</h1>
+      <t>Prosta aplikacja do instalowania i aktualizowania aplikacji prosto ze źródła, co znaczy że jeżeli jest jakaś aplikacja która ma często aktualizacje i nie zawsze zwykłe inne sklepy aplikacji nadążają, lub poprostu jej w nich nie ma, to można podać Obtanium link do repozytorium git i łatwo skonfigurować instalacje i aktualizacje tej aplikacji prosto ze źródła</t>
+    </section>
+    </div>
 
-  <footer>
-    <t class="author">Autor: Jerzy Tomasik</t>
-    <t class="creation-date">Data Stworzenia: 2 marca 2026r</t>
-    <a href="https://github.com/RysKowalski/school-stuff/tree/main/zadanie_5_znaczniki" class="github">github</a>
-  </footer>
+    <footer>
+      <t class="author">Autor: Jerzy Tomasik</t>
+      <t class="creation-date">Data Stworzenia: 2 marca 2026r</t>
+      <a href="https://github.com/RysKowalski/school-stuff/tree/main/zadanie_5_znaczniki" class="github">github</a>
+    </footer>
   <script src="script.js"></script>
 </body>
 
