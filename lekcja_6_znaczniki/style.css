@@ -2,38 +2,38 @@ body {
   background-color: gray;
 }
 
-header {
+.naglowek {
   background-color: red;
   width: 100%;
   height: 60px;
 }
 
-nav {
+.nav {
   background-color: green;
   width: 30%;
   height: 300px;
   float: left;
 }
 
-section {
+.tresc {
   background-color: blue;
   width: 40%;
   height: 300px;
   float: left
 }
 
-aside {
+.reklama {
   background-color: yellow;
   width: 30%;
   height: 300px;
   float: left
 }
 
-aside::after {
+.reklama::after {
   clear: both;
 }
 
-footer {
+.stopka {
   background-color: magenta;
   width: 100%;
   height: 30px;
