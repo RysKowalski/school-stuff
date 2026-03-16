@@ -19,17 +19,13 @@ nav {
   color: lightgray;
   width: 10%;
   text-align: center;
-  font-size: 25px;
+  font-size: 2vw;
   font-weight: 700;
-}
-
-a {
-  transition: 100ms;
+  padding: 1vw;
 }
 
 a:hover {
   color: blue;
-  transition: 300ms;
 }
 
 section {
@@ -106,4 +102,107 @@ tr img {
 
 #toggle-banner {
   display: flex;
+}
+
+/* additional classes */
+
+.footer a {
+  color: lightgray;
+}
+
+tr img {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #1A1B26;
+  color: lightgray;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1vh;
+}
+
+.nav {
+  float: left;
+  background-color: #B3B3B3;
+  color: lightgray;
+  width: 10%;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 1vw;
+}
+
+.nav_link {
+  color: darkblue;
+}
+
+#other_info_link {
+  color: darkgreen
+}
+
+#other_info_link:hover {
+  color: darkolivegreen
+}
+
+a:hover {
+  color: blue;
+}
+
+.section {
+  width: 100%;
+  float: left;
+  padding: 1vh;
+  background-color: lightgray;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#wiki {
+  color: darkred;
+}
+
+#wiki:hover {
+  color: red
+}
+
+#swiat {
+  text-shadow: 3px 3px 3px #606060;
+  font-weight: 800;
+}
+
+#wszystko {
+  font-weight: 800;
+  color: #500000
+}
+
+#lois {
+  font-weight: 800;
+  color: purple;
+}
+
+#fulu {
+  font-weight: 900;
+  color: #000050;
+}
+
+#fulu:hover {
+  color: #202050;
 }
