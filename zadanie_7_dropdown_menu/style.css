@@ -1,0 +1,242 @@
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.banner {
+  flex: 1;
+}
+
+#toggle-banner {
+  margin-left: 10px;
+}
+
+nav {
+  float: left;
+  background-color: #B3B3B3;
+  color: lightgray;
+  width: 10%;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 1vw;
+}
+
+a:hover {
+  color: blue;
+}
+
+section {
+  width: 100%;
+  float: left;
+  padding: 1vh;
+  background-color: lightgray;
+}
+
+section t {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.page {
+  background-color: lightgray;
+  float: left;
+  width: 80%;
+  margin-bottom: 5vh;
+}
+
+.page::after {
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #1A1B26;
+  color: lightgray;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1vh;
+}
+
+.author {
+  align-items: left;
+  width: 45%;
+}
+
+.creation-date {
+  align-items: left;
+  width: 45%;
+}
+
+footer a {
+  color: lightgray;
+}
+
+tr img {
+  width: 100%;
+}
+
+
+.banner img {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+
+#my-banner img {
+  width: 100%;
+  height: 100px;
+  object-fit: fill;
+}
+
+.kao-banner-close {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+#toggle-banner {
+  display: flex;
+}
+
+/* additional classes */
+
+.footer a {
+  color: lightgray;
+}
+
+tr img {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #1A1B26;
+  color: lightgray;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1vh;
+}
+
+.nav {
+  float: left;
+  background-color: #B3B3B3;
+  color: lightgray;
+  width: 10%;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 1vw;
+}
+
+.nav_link {
+  color: darkblue;
+}
+
+#other_info_link {
+  color: darkgreen
+}
+
+#other_info_link:hover {
+  color: darkolivegreen
+}
+
+a:hover {
+  color: blue;
+}
+
+.section {
+  width: 100%;
+  float: left;
+  padding: 1vh;
+  background-color: lightgray;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#wiki {
+  color: darkred;
+}
+
+#wiki:hover {
+  color: red
+}
+
+#swiat {
+  text-shadow: 3px 3px 3px #606060;
+  font-weight: 800;
+}
+
+#wszystko {
+  font-weight: 800;
+  color: #500000
+}
+
+#lois {
+  font-weight: 800;
+  color: purple;
+}
+
+#fulu {
+  font-weight: 900;
+  color: #000050;
+}
+
+#fulu:hover {
+  color: #202050;
+}
+
+.menu-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu-content a:hover {
+  background-color: #ddd;
+}
+
+.menu:hover .menu-content {
+  display: block;
+}
+
+.menu:hover .menu-button {
+  background-color: #3e8e41;
+}
