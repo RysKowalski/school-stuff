@@ -1,0 +1,44 @@
+body {
+  background-color: gray;
+}
+
+#q {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 3;
+}
+
+#w {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  z-index: 2;
+}
+
+#e {
+  position: absolute;
+  top: 160px;
+  left: 500px;
+  z-index: 1;
+}
+
+.kontener {
+  background-color: antiquewhite;
+  position: relative;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.anchor {
+  font-size: 6vh;
+  position: fixed;
+  z-index: 50;
+  background-color: green;
+  font-weight: 500;
+  color: lightblue;
+  padding: 1vh;
+  bottom: 1vh;
+  right: 1vh;
+}
