@@ -1,0 +1,42 @@
+TROJAN HORSE
+1. Sposób zarażenia
+  Social engineering, użytkownik włącza program lub klika w załącznik e-mail.
+
+2. Co robi?
+  Może dać hakerom zdalny dostęp do komputera, edytować lub usuwać pliki, wyłączać komputer.
+
+3. Jak przeciwdziałać?
+  Nie włączać nieznanych plików wykonywalnych. Używaj dobrego zaktualizowanego programu antywirusowego.
+
+4. Przykłady
+  ProRat, ZeroAccess, Beast, Netbus, Zeus
+
+
+WORM
+1. Sposób zarażenia
+  szybko rozprzestrzenia się przez sieć, głównie e-mail i luki w zabezpieczeniach.
+
+2. Co robi?
+  Potrafi bardzo szybko się rozprzestrzeniać, przeciąża sieć przez wysyłanie kopii siebie wszędzie gdzie może.
+  Edytują i usuwają pliki, kradną dane, mogą instalować dodatkowe wirusy.
+
+3. Jak przeciwdziałać?
+  aktualizuj system operacyjny, korzystaj z antywirusa.
+
+4. Przykłady
+  Sober, ILOVEYOU, Code red
+
+
+MACRO VIRUS
+1. Sposób zarażenia
+  głównie przez pliki programów biurowych wysyłane przez e-mail. Głównie pliki MS Excel, Word, PowerPoint
+
+2. Co robi?
+  Uruchamia się, gdy tylko zainfekowany plik zostanie otworzony.
+  Niszczą dane, dodają tekst lub obrazy, poruszają pliki, formatują dyski.
+
+3. Jak przeciwdziałać?
+  Wyłączyć macro w programach biurowych, nie otwierać e-maili z nieznanych źródeł. Korzystać z antywirusa
+
+4. Przykłady
+  Bablas, Concept, Melissa virus
