@@ -2,6 +2,7 @@ body {
   background-color: darkgray;
 }
 
+
 section {
   background-color: darkslategray;
   padding: 2vh;
@@ -31,15 +32,49 @@ t {
 
 .inline-block {
   display: inline-block;
-  background-color: lightcoral;
-  margin: 3px;
+  border: 1px solid orange;
   width: 60%;
   height: 10%;
+  overflow: auto;
+  resize: both;
+}
+
+.inline-block h2 {
+  border: 1px solid red;
 }
 
 .block {
   display: block;
-  background-color: lightcoral;
-  margin: 3px;
+  border: 1px solid orange;
+  overflow: auto;
+  resize: both;
+}
 
+.block h2 {
+  border: 1px solid red;
+  margin: 3px;
+}
+
+.inline {
+  border: 1px solid orange;
+  display: inline;
+  padding: 3px;
+}
+
+.inline span {
+  border: 1px solid red;
+}
+
+
+.flex {
+  display: flex;
+  border: 1px solid orange;
+
+  overflow: auto;
+  resize: both;
+}
+
+.flex h2 {
+  border: 1px solid red;
+  flex: 1 1 auto;
 }
