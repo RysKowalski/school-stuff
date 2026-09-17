@@ -9,15 +9,27 @@
 </head>
 
 <body>
-
   <section>
     <h1>inline</h1>
     <t>
       Wyświetla element w linii, height i width nie mają znaczenia. Domyślna opcja.
     </t>
+    <div class="code">
+      <pre>
+        .inline {
+        border: 1px solid orange;
+        display: inline;
+        padding: 3px;
+        }
+
+        .inline span {
+        border: 1px solid red;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
     <div class="inline">
-      <span>przykład 1</span> 
+      <span>przykład 1</span>
       <span>przykład 2</span>
       <span>przykład 3</span>
       <span>przykład 4</span>
@@ -26,18 +38,62 @@
 
   <section>
     <h1>flex</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <t>pozwala na ustawienie dzieci relatywnie do siebie</t>
+    <div class="code">
+      <pre>
+        .flex {
+        display: flex;
+        border: 1px solid orange;
+
+        overflow: auto;
+        resize: both;
+        }
+
+        .flex h2 {
+        border: 1px solid red;
+        }
+
+        .flex1 {
+        flex-grow: 1;
+        }
+
+        .flex2 {
+        flex-grow: 3;
+        }
+
+        .flex3 {
+        flex-grow: 2;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
     <div class="flex">
-      <h2>przykład</h2>
-      <h2>przykład</h2>
-      <h2>przykład</h2>
+      <h2 class="flex1">przykład1</h2>
+      <h2 class="flex2">przykład2</h2>
+      <h2 class="flex3">przykład3</h2>
     </div>
   </section>
 
   <section>
     <h1>inline-block</h1>
     <t> Element jest formatowany jak inline, ale można ustawić width i height.</t>
+    <div class="code">
+      <pre>
+        .inline-block {
+        display: inline-block;
+        border: 1px solid orange;
+        width: 60%;
+        height: 10%;
+        overflow: auto;
+        resize: both;
+        }
+
+        .inline-block h2 {
+        border: 1px solid red;
+        }
+
+      </pre>
+    </div>
     <h2>przykład</h2>
     <div class="inline-block">
       <h2>przykład</h2>
@@ -48,55 +104,204 @@
 
   <section>
     <h1>inline-flex</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <t>tak jak flex, ale nie zaczyna się na nowej linii i nie zabiera całej dostępnej przestrzeni</t>
+    <div class="code">
+      <pre>
+        .inline-flex {
+        display: inline-flex;
+        border: 1px solid orange;
+
+        overflow: auto;
+        resize: both;
+        }
+
+        .inline-flex h2 {
+        border: 1px solid red;
+        }
+
+        .inline-flex1 {
+        flex-grow: 1;
+        }
+
+        .inline-flex2 {
+        flex-grow: 3;
+        }
+
+        .inline-flex3 {
+        flex-grow: 2;
+        }
+
+      </pre>
+    </div>
     <h2>przykład</h2>
-    <div>przykład</div>
+    <div class="inline-flex">
+      <h2 class="inline-flex1">przykład1</h2>
+      <h2 class="inline-flex2">przykład2</h2>
+      <h2 class="inline-flex3">przykład3</h2>
+    </div>
   </section>
 
   <section>
     <h1>none</h1>
     <t>powoduje, że element staje się niewidoczny</t>
+    <div class="code">
+      <pre>
+        .none {
+        display: none;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
     <div class="none">przykład</div>
   </section>
 
   <section>
     <h1>block</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <t>można ustawić width i height</t>
+    <div class="code">
+      <pre>
+        .block {
+        display: block;
+        border: 1px solid orange;
+        overflow: auto;
+        resize: both;
+        }
+
+        .block h2 {
+        border: 1px solid red;
+        margin: 3px;
+        }
+
+        .block1 {
+        width: 30%;
+        height: 60%;
+        }
+
+        .block2 {
+        width: 90%;
+        height: 20%;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
     <div class="block">
-      <h2>przykład</h2>
-      <h2>przykład</h2>
+      <h2 class="block1">przykład1</h2>
+      <h2 class="block2">przykład2</h2>
     </div>
   </section>
 
   <section>
-    <h1>nazwa</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <h1>inherit</h1>
+    <t>dziecko dziedziczy wartość display od rodzica</t>
+    <div class="code">
+      <pre>
+        .inherit {
+        display: block;
+        border: 1px solid orange;
+        resize: both;
+        }
+
+        .inherit-child {
+        display: inherit;
+        border: 1px solid green;
+        width: 50%;
+        height: 90%;
+        }
+
+        .inherit h2 {
+        border: 1px solid red;
+        }
+
+         &lt;div class="inherit"&gt;
+          &lt;div class="inherit-child"&gt;
+            &lt;h2&gt;przykład1&lt;/h2&gt;
+            &lt;h2&gt;przykład2&lt;/h2&gt;
+          &lt;/div&gt;
+
+        &lt;/div>&gt;
+      </pre>
+    </div>
     <h2>przykład</h2>
-    <div>przykład</div>
+    <div class="inherit">
+      <div class="inherit-child">
+        <h2>przykład1</h2>
+        <h2>przykład2</h2>
+      </div>
+
+    </div>
   </section>
 
   <section>
-    <h1>nazwa</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <h1>grid</h1>
+    <t>ustawia elementy w wiersze i kolumny</t>
+    <div class="code">
+      <pre>
+        .grid {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          gap: 10px;
+          border: 1px solid orange;
+        }
+
+        .grid h2 {
+          border: 1px solid red;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
-    <div>przykład</div>
+    <div class="grid">
+      <h2>1</h2>
+      <h2>2</h2>
+      <h2>3</h2>
+    </div>
   </section>
 
   <section>
-    <h1>nazwa</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <h1>inline-grid</h1>
+    <t>działa jak grid, ale nie zabiera całej linii</t>
+    <div class="code">
+      <pre>
+        .inline-grid {
+          display: inline-grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+          border: 1px solid orange;
+        }
+
+        .inline-grid h2 {
+          border: 1px solid red;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
-    <div>przykład</div>
+    <div class="inline-grid">
+      <h2>1</h2>
+      <h2>2</h2>
+      <h2>3</h2>
+    </div>
   </section>
 
   <section>
-    <h1>nazwa</h1>
-    <t>opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis opis </t>
+    <h1>contents</h1>
+    <t>sam element znika ze strony, ale jego dzieci zostają</t>
+    <div class="code">
+      <pre>
+        .contents {
+          display: contents;
+        }
+
+        .contents h2 {
+          border: 1px solid red;
+        }
+      </pre>
+    </div>
     <h2>przykład</h2>
-    <div>przykład</div>
+    <div class="contents">
+      <h2>przykład 1</h2>
+      <h2>przykład 2</h2>
+    </div>
   </section>
 
 </body>
+
 </html>

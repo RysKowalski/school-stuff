@@ -4,10 +4,23 @@ body {
 
 
 section {
+  position: relative;
   background-color: darkslategray;
   padding: 2vh;
   margin: 2vh;
   color: wheat;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.code {
+  position: static;
+  font-weight: 500;
+  color: white;
+  margin: auto;
+  font-size: 17px;
 }
 
 h1 {
@@ -20,6 +33,7 @@ h2 {
   font-size: 3vw;
   text-align: center;
 }
+
 
 t {
   font-size: 1.5vw;
@@ -55,6 +69,16 @@ t {
   margin: 3px;
 }
 
+.block1 {
+  width: 30%;
+  height: 60%;
+}
+
+.block2 {
+  width: 90%;
+  height: 20%;
+}
+
 .inline {
   border: 1px solid orange;
   display: inline;
@@ -76,5 +100,87 @@ t {
 
 .flex h2 {
   border: 1px solid red;
-  flex: 1 1 auto;
+}
+
+.flex1 {
+  flex-grow: 1;
+}
+
+.flex2 {
+  flex-grow: 3;
+}
+
+.flex3 {
+  flex-grow: 2;
+}
+
+.inline-flex {
+  display: inline-flex;
+  border: 1px solid orange;
+
+  overflow: auto;
+  resize: both;
+}
+
+.inline-flex h2 {
+  border: 1px solid red;
+}
+
+.inline-flex1 {
+  flex-grow: 1;
+}
+
+.inline-flex2 {
+  flex-grow: 3;
+}
+
+.inline-flex3 {
+  flex-grow: 2;
+}
+
+.inherit {
+  display: block;
+  border: 1px solid orange;
+  resize: both;
+}
+
+.inherit-child {
+  display: inherit;
+  border: 1px solid green;
+  width: 50%;
+  height: 90%;
+}
+
+.inherit h2 {
+  border: 1px solid red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  border: 1px solid orange;
+}
+
+.grid h2 {
+  border: 1px solid red;
+}
+
+.inline-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: 1px solid orange;
+}
+
+.inline-grid h2 {
+  border: 1px solid red;
+}
+
+.contents {
+  display: contents;
+}
+
+.contents h2 {
+  border: 1px solid red;
 }
