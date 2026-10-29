@@ -21,7 +21,7 @@ function main() {
   //   week_day = "czwartek"
   // }
 
-  week_day = week_day_names[week_day]
+  week_day = week_day_names[week_day - 1]
 
   // switch (month) {
   //   case 0:
