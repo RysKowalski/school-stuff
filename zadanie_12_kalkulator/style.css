@@ -1,0 +1,22 @@
+#no-keyboard-info {
+  display: none;
+  color: red;
+}
+
+input {
+  width: 45px;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+#expression {
+  width: 150px
+}
+
+#result {
+  width: 95px
+}
+
+body {
+  text-align: center;
+}

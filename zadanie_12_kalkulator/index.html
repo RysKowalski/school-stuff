@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kalkulator</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h2>Kalkulator</h2>
+  <form name="kalk" id="kalk-form">
+    <t>Działanie</t> <br>
+    <input type="text" name="expression" id="expression"> <br>
+    <t>Wynik</t>
+    <input type="text" name="result" value="" id="result"> <br>
+
+    <input type="button" value="1" onclick="insert(this.value)">
+    <input type="button" value="2" onclick="insert(this.value)">
+    <input type="button" value="3" onclick="insert(this.value)">
+    <input type="button" value="4" onclick="insert(this.value)"> <br>
+
+    <input type="button" value="5" onclick="insert(this.value)">
+    <input type="button" value="6" onclick="insert(this.value)">
+    <input type="button" value="7" onclick="insert(this.value)">
+    <input type="button" value="8" onclick="insert(this.value)"> <br>
+
+    <input type="button" value="9" onclick="insert(this.value)">
+    <input type="button" value="0" onclick="insert(this.value)">
+    <input type="button" value="+" onclick="insert(this.value)">
+    <input type="button" value="-" onclick="insert(this.value)"> <br>
+
+
+    <input type="button" value="." onclick="insert(this.value)">
+    <input type="button" value="c" id="cls">
+    <input type="button" value="/" onclick="insert(this.value)">
+    <input type="button" value="*" onclick="insert(this.value)"> <br>
+
+    <input type="button" value="MR" onclick="insert(memory)">
+    <input type="button" value="MR+" onclick="memory_set()">
+    <input type="button" value="MR-" onclick="decrease_memory()">
+    <input type="button" value="=" id="equals">
+  </form>
+
+  <t id="no-keyboard-info">Operacje można wykonywać tylko przyciskami</t>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
